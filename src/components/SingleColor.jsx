@@ -30,7 +30,7 @@ const SingleColor = ({ color, index }) => {
           <h6>{color.weight}%</h6>
         </div>
 
-        {alert ? <small>Copied to Clipborad</small> : ""}
+        {alert ? <small>Copied to Clipboard</small> : ""}
       </div>
     </>
   );
